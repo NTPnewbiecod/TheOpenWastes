@@ -1,0 +1,41 @@
+[gd_scene load_steps=13 format=3 uid="uid://cscwvvarvgvv1"]
+
+[ext_resource type="PackedScene" uid="uid://cmtuyxyljp8bp" path="res://Scenes/buildings/building002assets/002_floor.tscn" id="1_s1wot"]
+[ext_resource type="PackedScene" uid="uid://dxixyoy6dbflq" path="res://Scenes/buildings/building002assets/002_foundation_base.tscn" id="2_a3bwa"]
+[ext_resource type="PackedScene" uid="uid://cmkemkkeu3qsl" path="res://Scenes/buildings/building002assets/002_foundation_stairs.tscn" id="3_x42e8"]
+[ext_resource type="PackedScene" uid="uid://tybma3odbl0e" path="res://Scenes/buildings/building002assets/002_roof.tscn" id="4_duww3"]
+[ext_resource type="PackedScene" uid="uid://bhcclrmusv0yn" path="res://Scenes/buildings/building002assets/002_stairs_001.tscn" id="5_4me31"]
+[ext_resource type="PackedScene" uid="uid://dvbn8vn1xfp6v" path="res://Scenes/buildings/building002assets/002_stairs_002.tscn" id="6_pgasg"]
+[ext_resource type="PackedScene" uid="uid://cql8lo8his3bl" path="res://Scenes/buildings/building002assets/002_stairs_002_ground_floor.tscn" id="7_2gn5w"]
+[ext_resource type="PackedScene" uid="uid://dh5hjcw7mc07h" path="res://Scenes/buildings/building002assets/002_wall_blank.tscn" id="8_d0blj"]
+[ext_resource type="PackedScene" uid="uid://cknb5dbkc6xmh" path="res://Scenes/buildings/building002assets/002_wall_windows_001.tscn" id="9_03f3h"]
+[ext_resource type="PackedScene" uid="uid://crl267qjlaok3" path="res://Scenes/buildings/building002assets/002_wall_windows_002.tscn" id="10_iohvn"]
+[ext_resource type="PackedScene" uid="uid://cpucld41mimj4" path="res://Scenes/buildings/building002assets/002_wall_windows_003.tscn" id="11_2phkn"]
+[ext_resource type="PackedScene" uid="uid://2mkjw3uo4mlv" path="res://Scenes/buildings/building002assets/002_wall_windows_door.tscn" id="12_fp8wj"]
+
+[node name="building_002_meshLib" type="Node3D"]
+
+[node name="floor" parent="." instance=ExtResource("1_s1wot")]
+transform = Transform3D(0.65, 0, 0, 0, 1, 0, 0, 0, 0.65, 0, 0, 0)
+
+[node name="foundation" parent="." instance=ExtResource("2_a3bwa")]
+
+[node name="foundation_stair" parent="." instance=ExtResource("3_x42e8")]
+
+[node name="roof" parent="." instance=ExtResource("4_duww3")]
+
+[node name="stair_01" parent="." instance=ExtResource("5_4me31")]
+
+[node name="stair_02" parent="." instance=ExtResource("6_pgasg")]
+
+[node name="stair_03" parent="." instance=ExtResource("7_2gn5w")]
+
+[node name="wall" parent="." instance=ExtResource("8_d0blj")]
+
+[node name="windows_x3" parent="." instance=ExtResource("9_03f3h")]
+
+[node name="windows_x2" parent="." instance=ExtResource("10_iohvn")]
+
+[node name="windows_x1" parent="." instance=ExtResource("11_2phkn")]
+
+[node name="door_with_windows" parent="." instance=ExtResource("12_fp8wj")]
