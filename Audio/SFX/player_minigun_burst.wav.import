@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cgbyuc1i81wq4"
-path="res://.godot/imported/player_minigun_burst.wav-a0a461b1fc4220b50c2b4161b5b2b231.sample"
+path="res://.godot/imported/player_minigun_burst.wav-a49061927bb29c726484a37bc767a0fb.sample"
 
 [deps]
 
-source_file="res://Audio/SFX/player_minigun_burst.wav"
-dest_files=["res://.godot/imported/player_minigun_burst.wav-a0a461b1fc4220b50c2b4161b5b2b231.sample"]
+source_file="res://audio/SFX/player_minigun_burst.wav"
+dest_files=["res://.godot/imported/player_minigun_burst.wav-a49061927bb29c726484a37bc767a0fb.sample"]
 
 [params]
 

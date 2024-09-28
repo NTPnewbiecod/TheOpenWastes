@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://blo0g3kueqoup"
-path="res://.godot/imported/wall_two_doors.blend-ba268cc0704cba9786543834b980d903.scn"
+path="res://.godot/imported/wall_two_doors.blend-d57d97f369651e98d9024518bf76e072.scn"
 
 [deps]
 
-source_file="res://Models/Building001/wall_two_doors.blend"
-dest_files=["res://.godot/imported/wall_two_doors.blend-ba268cc0704cba9786543834b980d903.scn"]
+source_file="res://models/building001/wall_two_doors.blend"
+dest_files=["res://.godot/imported/wall_two_doors.blend-d57d97f369651e98d9024518bf76e072.scn"]
 
 [params]
 

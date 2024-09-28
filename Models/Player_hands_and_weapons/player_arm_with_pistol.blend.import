@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b015v86x1q8c6"
-path="res://.godot/imported/player_arm_with_pistol.blend-3b8dd80d7f0d585104093c51f69ee1f6.scn"
+path="res://.godot/imported/player_arm_with_pistol.blend-62bd0da2560bf4c92a9403a47062e91e.scn"
 
 [deps]
 
-source_file="res://Models/Player_hands_and_weapons/player_arm_with_pistol.blend"
-dest_files=["res://.godot/imported/player_arm_with_pistol.blend-3b8dd80d7f0d585104093c51f69ee1f6.scn"]
+source_file="res://models/Player_hands_and_weapons/player_arm_with_pistol.blend"
+dest_files=["res://.godot/imported/player_arm_with_pistol.blend-62bd0da2560bf4c92a9403a47062e91e.scn"]
 
 [params]
 

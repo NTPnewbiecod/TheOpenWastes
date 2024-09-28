@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnjaxe3wwgfu0"
-path.s3tc="res://.godot/imported/FPS_arm_with_minigun_minigun_normal.jpg-ddbbd73438f4e4d1b179edd63ca5322a.s3tc.ctex"
+path.s3tc="res://.godot/imported/FPS_arm_with_minigun_minigun_normal.jpg-95bdc554305c89c3daeec97dfcde3747.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Models/Player_hands_and_weapons/FPS_arm_with_minigun_minigun_normal.jpg"
-dest_files=["res://.godot/imported/FPS_arm_with_minigun_minigun_normal.jpg-ddbbd73438f4e4d1b179edd63ca5322a.s3tc.ctex"]
+source_file="res://models/Player_hands_and_weapons/FPS_arm_with_minigun_minigun_normal.jpg"
+dest_files=["res://.godot/imported/FPS_arm_with_minigun_minigun_normal.jpg-95bdc554305c89c3daeec97dfcde3747.s3tc.ctex"]
 
 [params]
 

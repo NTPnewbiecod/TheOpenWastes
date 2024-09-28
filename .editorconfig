@@ -1,0 +1,20 @@
+# top-most EditorConfig file
+root = true
+
+# 4 space indentation
+[*.gd]
+end_of_line = lf
+charset = utf-8
+indent_style = tab
+trim_tailing_whitespace = true
+insert_final_newline = true
+
+
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab
+
+# Matches the exact files either package.json or .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2

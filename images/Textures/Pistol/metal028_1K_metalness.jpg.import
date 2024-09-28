@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7oqetum3be4g"
-path="res://.godot/imported/metal028_1K_metalness.jpg-25e7b22d5b895668a793e45d3322385b.ctex"
+path="res://.godot/imported/metal028_1K_metalness.jpg-b1182fcd64288faaae29026980c8b54c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Textures/Pistol/metal028_1K_metalness.jpg"
-dest_files=["res://.godot/imported/metal028_1K_metalness.jpg-25e7b22d5b895668a793e45d3322385b.ctex"]
+source_file="res://images/textures/pistol/metal028_1K_metalness.jpg"
+dest_files=["res://.godot/imported/metal028_1K_metalness.jpg-b1182fcd64288faaae29026980c8b54c.ctex"]
 
 [params]
 

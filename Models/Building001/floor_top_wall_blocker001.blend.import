@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dn5j4h36s1goh"
-path="res://.godot/imported/floor_top_wall_blocker001.blend-7e8b9213e7b2dec8c6d6286574877a2b.scn"
+path="res://.godot/imported/floor_top_wall_blocker001.blend-669fe1c6dd3cecac33952be159cdcf3a.scn"
 
 [deps]
 
-source_file="res://Models/Building001/floor_top_wall_blocker001.blend"
-dest_files=["res://.godot/imported/floor_top_wall_blocker001.blend-7e8b9213e7b2dec8c6d6286574877a2b.scn"]
+source_file="res://models/building001/floor_top_wall_blocker001.blend"
+dest_files=["res://.godot/imported/floor_top_wall_blocker001.blend-669fe1c6dd3cecac33952be159cdcf3a.scn"]
 
 [params]
 

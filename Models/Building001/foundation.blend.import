@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://di6xrfekds0qu"
-path="res://.godot/imported/foundation.blend-8d6eb93342c88fb7e4d8addd39d82065.scn"
+path="res://.godot/imported/foundation.blend-4584a081afd6e1ba9f627fcd58d00636.scn"
 
 [deps]
 
-source_file="res://Models/Building001/foundation.blend"
-dest_files=["res://.godot/imported/foundation.blend-8d6eb93342c88fb7e4d8addd39d82065.scn"]
+source_file="res://models/building001/foundation.blend"
+dest_files=["res://.godot/imported/foundation.blend-4584a081afd6e1ba9f627fcd58d00636.scn"]
 
 [params]
 

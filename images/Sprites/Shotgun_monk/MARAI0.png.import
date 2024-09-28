@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl05tbhkrc04c"
-path.s3tc="res://.godot/imported/MARAI0.png-2bd9d3e6455894bf55785ba49da2a50a.s3tc.ctex"
+path.s3tc="res://.godot/imported/MARAI0.png-c79fdd081cc2aca4d148658ba876d56a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://images/Sprites/Shotgun_monk/MARAI0.png"
-dest_files=["res://.godot/imported/MARAI0.png-2bd9d3e6455894bf55785ba49da2a50a.s3tc.ctex"]
+source_file="res://images/sprites/Shotgun_monk/MARAI0.png"
+dest_files=["res://.godot/imported/MARAI0.png-c79fdd081cc2aca4d148658ba876d56a.s3tc.ctex"]
 
 [params]
 

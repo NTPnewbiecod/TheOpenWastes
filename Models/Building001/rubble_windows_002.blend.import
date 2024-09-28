@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cuf2tp721j73y"
-path="res://.godot/imported/rubble_windows_002.blend-776cfbb6dbc70def24a0b9b856d01397.scn"
+path="res://.godot/imported/rubble_windows_002.blend-4128673fd5fa9c0b28118a90dd608f53.scn"
 
 [deps]
 
-source_file="res://Models/Building001/rubble_windows_002.blend"
-dest_files=["res://.godot/imported/rubble_windows_002.blend-776cfbb6dbc70def24a0b9b856d01397.scn"]
+source_file="res://models/building001/rubble_windows_002.blend"
+dest_files=["res://.godot/imported/rubble_windows_002.blend-4128673fd5fa9c0b28118a90dd608f53.scn"]
 
 [params]
 

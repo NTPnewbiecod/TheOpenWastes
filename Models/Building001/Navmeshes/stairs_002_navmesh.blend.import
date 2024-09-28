@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d21kniwks6qnd"
-path="res://.godot/imported/stairs_002_navmesh.blend-8516dab269ed151bff4996cfbb5a1312.scn"
+path="res://.godot/imported/stairs_002_navmesh.blend-be27719d4c22753a7a32d10d7470a6ca.scn"
 
 [deps]
 
-source_file="res://Models/Building001/Navmeshes/stairs_002_navmesh.blend"
-dest_files=["res://.godot/imported/stairs_002_navmesh.blend-8516dab269ed151bff4996cfbb5a1312.scn"]
+source_file="res://models/building001/Navmeshes/stairs_002_navmesh.blend"
+dest_files=["res://.godot/imported/stairs_002_navmesh.blend-be27719d4c22753a7a32d10d7470a6ca.scn"]
 
 [params]
 

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PlayerMovementData" load_steps=2 format=3 uid="uid://b4kon88mq1h0m"]
+
+[ext_resource type="Script" path="res://scenes/player/resource/base/PlayerMovementData.gd" id="1_gdhnd"]
+
+[resource]
+script = ExtResource("1_gdhnd")
+player_mass = 50.0
+player_surface_area = 0.4
+jump_velocity = 1.0
+walk_speed = 4.0
+walk_acc = 6.5
+sprint_speed = 6.0
+sprint_acc = 15.0
+ground_friction_coeff = 0.9
+air_friction_coeff = 0.7
+air_density = 1.2
+air_walk_mul = 0.1
+air_sprint_mul = 0.1
+air_strafe_speed_soft_limit = 10.0

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ciuw24iyshv5a"
-path.s3tc="res://.godot/imported/MARAL0.png-8798c13ed65d466184c0ae888a31a7f6.s3tc.ctex"
+path.s3tc="res://.godot/imported/MARAL0.png-4c6715da0e730a6795f2c90e51705da3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://images/Sprites/Shotgun_monk/MARAL0.png"
-dest_files=["res://.godot/imported/MARAL0.png-8798c13ed65d466184c0ae888a31a7f6.s3tc.ctex"]
+source_file="res://images/sprites/Shotgun_monk/MARAL0.png"
+dest_files=["res://.godot/imported/MARAL0.png-4c6715da0e730a6795f2c90e51705da3.s3tc.ctex"]
 
 [params]
 

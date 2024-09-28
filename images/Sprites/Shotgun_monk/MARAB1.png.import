@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xrywi2f2k03q"
-path.s3tc="res://.godot/imported/MARAB1.png-1136bffe83479673522ad54f1f6a784f.s3tc.ctex"
+path.s3tc="res://.godot/imported/MARAB1.png-fa2b01a59fa2d8908338075937494327.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://images/Sprites/Shotgun_monk/MARAB1.png"
-dest_files=["res://.godot/imported/MARAB1.png-1136bffe83479673522ad54f1f6a784f.s3tc.ctex"]
+source_file="res://images/sprites/Shotgun_monk/MARAB1.png"
+dest_files=["res://.godot/imported/MARAB1.png-fa2b01a59fa2d8908338075937494327.s3tc.ctex"]
 
 [params]
 

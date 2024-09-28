@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://civ6061oh17y3"
-path="res://.godot/imported/stairs_002_ground_floor.blend-660a903fe1d183753a4649c0831aa1db.scn"
+path="res://.godot/imported/stairs_002_ground_floor.blend-76a4bd096e6ad19a85779f0d17813d13.scn"
 
 [deps]
 
-source_file="res://Models/Building001/stairs_002_ground_floor.blend"
-dest_files=["res://.godot/imported/stairs_002_ground_floor.blend-660a903fe1d183753a4649c0831aa1db.scn"]
+source_file="res://models/building001/stairs_002_ground_floor.blend"
+dest_files=["res://.godot/imported/stairs_002_ground_floor.blend-76a4bd096e6ad19a85779f0d17813d13.scn"]
 
 [params]
 

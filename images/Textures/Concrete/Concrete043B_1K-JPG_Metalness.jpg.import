@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfs7rpkidxajl"
-path="res://.godot/imported/Concrete043B_1K-JPG_Metalness.jpg-1821eb8e31ef3f32a8a20c761c032879.ctex"
+path="res://.godot/imported/Concrete043B_1K-JPG_Metalness.jpg-255920f83585d494a6c9b7be7932567f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Textures/Concrete/Concrete043B_1K-JPG_Metalness.jpg"
-dest_files=["res://.godot/imported/Concrete043B_1K-JPG_Metalness.jpg-1821eb8e31ef3f32a8a20c761c032879.ctex"]
+source_file="res://images/textures/Concrete/Concrete043B_1K-JPG_Metalness.jpg"
+dest_files=["res://.godot/imported/Concrete043B_1K-JPG_Metalness.jpg-255920f83585d494a6c9b7be7932567f.ctex"]
 
 [params]
 

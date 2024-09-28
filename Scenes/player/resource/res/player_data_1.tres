@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PlayerInternalData" load_steps=2 format=3 uid="uid://ovdkfm02ekbq"]
+
+[ext_resource type="Script" path="res://scenes/player/resource/base/PlayerInternalData.gd" id="1_6ghbf"]
+
+[resource]
+script = ExtResource("1_6ghbf")
+bob_frequency = 2.0
+bob_amplitude = 0.08
+base_fov = 75.0
+fov_change = 1.5
+fov_intensity = 1.0
+max_health = 100
+health = 100

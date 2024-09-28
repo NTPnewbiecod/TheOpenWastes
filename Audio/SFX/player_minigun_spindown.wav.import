@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dxiwb5ktjctyf"
-path="res://.godot/imported/player_minigun_spindown.wav-571b2fd00178360f2fc0d36a52cec3d4.sample"
+path="res://.godot/imported/player_minigun_spindown.wav-ed6aadede2f690503eeb99383491d574.sample"
 
 [deps]
 
-source_file="res://Audio/SFX/player_minigun_spindown.wav"
-dest_files=["res://.godot/imported/player_minigun_spindown.wav-571b2fd00178360f2fc0d36a52cec3d4.sample"]
+source_file="res://audio/SFX/player_minigun_spindown.wav"
+dest_files=["res://.godot/imported/player_minigun_spindown.wav-ed6aadede2f690503eeb99383491d574.sample"]
 
 [params]
 

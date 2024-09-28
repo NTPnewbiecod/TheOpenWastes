@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://j2xiw6fju7uk"
-path.s3tc="res://.godot/imported/metal028_1K_color.jpg-d4caa937559c131c96438bec10abae25.s3tc.ctex"
+path.s3tc="res://.godot/imported/metal028_1K_color.jpg-cd078a86ab7db9c423a3bbba88a71433.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://images/Textures/Pistol/metal028_1K_color.jpg"
-dest_files=["res://.godot/imported/metal028_1K_color.jpg-d4caa937559c131c96438bec10abae25.s3tc.ctex"]
+source_file="res://images/textures/pistol/metal028_1K_color.jpg"
+dest_files=["res://.godot/imported/metal028_1K_color.jpg-cd078a86ab7db9c423a3bbba88a71433.s3tc.ctex"]
 
 [params]
 

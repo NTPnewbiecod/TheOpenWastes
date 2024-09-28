@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dkykf6d1rfqp7"
-path="res://.godot/imported/Bullet_tracer.blend-c292b6bbac6354bba817aa7515bcfec6.scn"
+path="res://.godot/imported/Bullet_tracer.blend-3640d36b6bbcaead26b526ef2e4d59cb.scn"
 
 [deps]
 
-source_file="res://Models/Miscellaneous/Bullet_tracer.blend"
-dest_files=["res://.godot/imported/Bullet_tracer.blend-c292b6bbac6354bba817aa7515bcfec6.scn"]
+source_file="res://models/Miscellaneous/Bullet_tracer.blend"
+dest_files=["res://.godot/imported/Bullet_tracer.blend-3640d36b6bbcaead26b526ef2e4d59cb.scn"]
 
 [params]
 

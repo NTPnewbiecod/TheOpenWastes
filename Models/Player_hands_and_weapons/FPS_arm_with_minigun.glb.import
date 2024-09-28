@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://4y7h1uy3hq1r"
-path="res://.godot/imported/FPS_arm_with_minigun.glb-148eadeb09ba397f198778d96d6e4a9d.scn"
+path="res://.godot/imported/FPS_arm_with_minigun.glb-fdfc1d65b0a59e27ab2f9ee5bf6e90b5.scn"
 
 [deps]
 
-source_file="res://Models/Player_hands_and_weapons/FPS_arm_with_minigun.glb"
-dest_files=["res://.godot/imported/FPS_arm_with_minigun.glb-148eadeb09ba397f198778d96d6e4a9d.scn"]
+source_file="res://models/Player_hands_and_weapons/FPS_arm_with_minigun.glb"
+dest_files=["res://.godot/imported/FPS_arm_with_minigun.glb-fdfc1d65b0a59e27ab2f9ee5bf6e90b5.scn"]
 
 [params]
 
@@ -17,6 +17,7 @@ nodes/root_type=""
 nodes/root_name=""
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
 meshes/ensure_tangents=true
 meshes/generate_lods=true
 meshes/create_shadow_meshes=true
@@ -28,6 +29,7 @@ animation/import=true
 animation/fps=30
 animation/trimming=false
 animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
 import_script/path=""
 _subresources={}
 gltf/naming_version=1

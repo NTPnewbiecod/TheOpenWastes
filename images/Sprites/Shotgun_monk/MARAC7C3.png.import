@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlc2s877suc2y"
-path="res://.godot/imported/MARAC7C3.png-7ff3f383468cf8ec1862a459b36b78e9.ctex"
+path="res://.godot/imported/MARAC7C3.png-a12ecbebbf14f5f7d359de353bf77bc2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Sprites/Shotgun_monk/MARAC7C3.png"
-dest_files=["res://.godot/imported/MARAC7C3.png-7ff3f383468cf8ec1862a459b36b78e9.ctex"]
+source_file="res://images/sprites/Shotgun_monk/MARAC7C3.png"
+dest_files=["res://.godot/imported/MARAC7C3.png-a12ecbebbf14f5f7d359de353bf77bc2.ctex"]
 
 [params]
 

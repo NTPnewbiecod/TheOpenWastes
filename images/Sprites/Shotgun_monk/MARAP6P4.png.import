@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://db76kt5smif7a"
-path="res://.godot/imported/MARAP6P4.png-c3510efc81bfc8e583b8ced491c73bf2.ctex"
+path="res://.godot/imported/MARAP6P4.png-9dc9e61b42534130a98104a5053129c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Sprites/Shotgun_monk/MARAP6P4.png"
-dest_files=["res://.godot/imported/MARAP6P4.png-c3510efc81bfc8e583b8ced491c73bf2.ctex"]
+source_file="res://images/sprites/Shotgun_monk/MARAP6P4.png"
+dest_files=["res://.godot/imported/MARAP6P4.png-9dc9e61b42534130a98104a5053129c7.ctex"]
 
 [params]
 

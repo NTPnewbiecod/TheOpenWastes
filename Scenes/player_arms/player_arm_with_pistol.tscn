@@ -1,15 +1,16 @@
-[gd_scene load_steps=22 format=3 uid="uid://bsyh2g0iqygo2"]
+[gd_scene load_steps=23 format=3 uid="uid://bsyh2g0iqygo2"]
 
 [ext_resource type="Script" path="res://scripts/player/player_pistol.gd" id="1_fp756"]
 [ext_resource type="Script" path="res://scripts/player/player_pistol_data.gd" id="2_a03b0"]
 [ext_resource type="PackedScene" uid="uid://b015v86x1q8c6" path="res://models/Player_hands_and_weapons/player_arm_with_pistol.blend" id="3_60m8b"]
 [ext_resource type="Script" path="res://scripts/player/player_projectile_spawner.gd" id="4_hwvs8"]
 [ext_resource type="Script" path="res://scripts/miscellaneous/muzzle_flash.gd" id="5_16l04"]
-[ext_resource type="Texture2D" uid="uid://bceykr2dfcdpl" path="res://images/Sprites/muzzle_flash/muzzle_flash_flare01.PNG" id="6_a3ypn"]
-[ext_resource type="Material" uid="uid://dcdw7orgkpb73" path="res://shaders_and_materials/muzzle_flash_flash_material.tres" id="7_x57or"]
-[ext_resource type="Material" uid="uid://bql67emtit1gs" path="res://shaders_and_materials/muzzle_flash_flare_material.tres" id="8_mq0qd"]
+[ext_resource type="PackedScene" uid="uid://bxh7wsutsypbi" path="res://scenes/projectile_tracer/projectile_tracer.tscn" id="5_cr6ut"]
+[ext_resource type="Texture2D" uid="uid://bceykr2dfcdpl" path="res://images/sprites/muzzle_flash/muzzle_flash_flare01.PNG" id="6_a3ypn"]
+[ext_resource type="Material" path="res://shaders_and_materials/muzzle_flash_flash_material.tres" id="7_x57or"]
+[ext_resource type="Material" uid="uid://bkbw5b0vq4dpn" path="res://shaders_and_materials/muzzle_flash_flare_material.tres" id="8_mq0qd"]
 [ext_resource type="Script" path="res://scripts/miscellaneous/audio_node.gd" id="9_gvmjn"]
-[ext_resource type="AudioStream" uid="uid://v0jeoi3bcfd5" path="res://Audio/SFX/player_pistol_shot.wav" id="10_nlhn0"]
+[ext_resource type="AudioStream" uid="uid://v0jeoi3bcfd5" path="res://audio/SFX/player_pistol_shot.wav" id="10_nlhn0"]
 
 [sub_resource type="Animation" id="Animation_7a4e6"]
 resource_name = "Recoil"
@@ -114,6 +115,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0814867, 0.148422, -0.6799
 
 [node name="ProjectileSpawner" type="Node" parent="ProjectileSpawnPoint" node_paths=PackedStringArray("projectile_data", "projectile_spawn_point")]
 script = ExtResource("4_hwvs8")
+projectile = ExtResource("5_cr6ut")
 projectile_data = NodePath("../../PlayerPistolData")
 projectile_spawn_point = NodePath("..")
 

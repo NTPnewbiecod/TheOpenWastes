@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hynefql6052i"
-path="res://.godot/imported/MARAU1.png-9c3164090e3214e8724619ed17d5e5c2.ctex"
+path="res://.godot/imported/MARAU1.png-3cc7b63d434758e390136fbfb18a9292.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Sprites/Shotgun_monk/MARAU1.png"
-dest_files=["res://.godot/imported/MARAU1.png-9c3164090e3214e8724619ed17d5e5c2.ctex"]
+source_file="res://images/sprites/Shotgun_monk/MARAU1.png"
+dest_files=["res://.godot/imported/MARAU1.png-3cc7b63d434758e390136fbfb18a9292.ctex"]
 
 [params]
 

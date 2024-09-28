@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bceykr2dfcdpl"
-path.s3tc="res://.godot/imported/muzzle_flash_flare01.PNG-8e9a8e7695581727bd36fc56858a5a7f.s3tc.ctex"
+path.s3tc="res://.godot/imported/muzzle_flash_flare01.PNG-40f2cafe93b94933f1e882652c9616e8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://images/Sprites/muzzle_flash/muzzle_flash_flare01.PNG"
-dest_files=["res://.godot/imported/muzzle_flash_flare01.PNG-8e9a8e7695581727bd36fc56858a5a7f.s3tc.ctex"]
+source_file="res://images/sprites/muzzle_flash/muzzle_flash_flare01.PNG"
+dest_files=["res://.godot/imported/muzzle_flash_flare01.PNG-40f2cafe93b94933f1e882652c9616e8.s3tc.ctex"]
 
 [params]
 

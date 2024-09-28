@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ci648tkmaq6r4"
-path="res://.godot/imported/floor_top002.blend-063bce2b2fac6fb990ba038c1ea21b74.scn"
+path="res://.godot/imported/floor_top002.blend-4e96af7ed07750ad7917beb2a6fe8880.scn"
 
 [deps]
 
-source_file="res://Models/Building001/floor_top002.blend"
-dest_files=["res://.godot/imported/floor_top002.blend-063bce2b2fac6fb990ba038c1ea21b74.scn"]
+source_file="res://models/building001/floor_top002.blend"
+dest_files=["res://.godot/imported/floor_top002.blend-4e96af7ed07750ad7917beb2a6fe8880.scn"]
 
 [params]
 

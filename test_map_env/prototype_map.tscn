@@ -1,0 +1,61 @@
+[gd_scene load_steps=8 format=3 uid="uid://bbwi00mds7iiv"]
+
+[ext_resource type="Material" uid="uid://cvalw6suiwiqe" path="res://test_map_env/material/prototype_mat.material" id="1_h5n8j"]
+[ext_resource type="Texture2D" uid="uid://d1h5cwh4txpvk" path="res://test_map_env/env_hdri/studio_small_02_4k.exr" id="1_s34ft"]
+[ext_resource type="PackedScene" uid="uid://bmmmtp0iwh01u" path="res://scenes/player/player.tscn" id="2_hvtgr"]
+[ext_resource type="Script" path="res://test_map_env/csg_combiner_3d.gd" id="2_ljv5l"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_1q2q2"]
+panorama = ExtResource("1_s34ft")
+
+[sub_resource type="Sky" id="Sky_8pek0"]
+sky_material = SubResource("PanoramaSkyMaterial_1q2q2")
+
+[sub_resource type="Environment" id="Environment_aril8"]
+background_mode = 2
+sky = SubResource("Sky_8pek0")
+
+[node name="PrototypeMap" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_aril8")
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="." node_paths=PackedStringArray("collision_shape")]
+collision_layer = 0
+collision_mask = 0
+script = ExtResource("2_ljv5l")
+collision_shape = NodePath("StaticBody3D/CollisionShape3D")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGCombiner3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGCombiner3D/StaticBody3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.559, 0, -8.53215)
+size = Vector3(98.4393, 1, 158.639)
+material = ExtResource("1_h5n8j")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33, 3, -9)
+size = Vector3(1, 7, 159)
+material = ExtResource("1_h5n8j")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 64, 3, -8.5)
+size = Vector3(1, 7, 160)
+material = ExtResource("1_h5n8j")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.5, 2.5, -88)
+size = Vector3(100, 6, 1)
+material = ExtResource("1_h5n8j")
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.5, 2.5, 76)
+size = Vector3(100, 6, 1)
+material = ExtResource("1_h5n8j")
+
+[node name="Player" parent="." instance=ExtResource("2_hvtgr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+collision_layer = 2
+input_capture_on_drag = true

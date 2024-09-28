@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3g4h5mdpowvp"
-path="res://.godot/imported/FPS_arm_with_minigun_minigun_roughness.jpg-e0d6e37c29980d47ca8588ce7a51e51a.ctex"
+path="res://.godot/imported/FPS_arm_with_minigun_minigun_roughness.jpg-5bebe63173acb4041385762c62566cf7.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,8 +11,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Models/Player_hands_and_weapons/FPS_arm_with_minigun_minigun_roughness.jpg"
-dest_files=["res://.godot/imported/FPS_arm_with_minigun_minigun_roughness.jpg-e0d6e37c29980d47ca8588ce7a51e51a.ctex"]
+source_file="res://models/Player_hands_and_weapons/FPS_arm_with_minigun_minigun_roughness.jpg"
+dest_files=["res://.godot/imported/FPS_arm_with_minigun_minigun_roughness.jpg-5bebe63173acb4041385762c62566cf7.ctex"]
 
 [params]
 

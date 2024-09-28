@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bf6pmpuxjw7uv"
-path.s3tc="res://.godot/imported/MARAD1.png-f23972249c2278bd3581a12857147159.s3tc.ctex"
+path.s3tc="res://.godot/imported/MARAD1.png-fcb50c71032c677fd7b20b964e949e60.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://images/Sprites/Shotgun_monk/MARAD1.png"
-dest_files=["res://.godot/imported/MARAD1.png-f23972249c2278bd3581a12857147159.s3tc.ctex"]
+source_file="res://images/sprites/Shotgun_monk/MARAD1.png"
+dest_files=["res://.godot/imported/MARAD1.png-fcb50c71032c677fd7b20b964e949e60.s3tc.ctex"]
 
 [params]
 

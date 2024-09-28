@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://qimu5l38udb1"
-path="res://.godot/imported/foundation_floor_navmesh.blend-1e3da5578c20c28d7edde83a869e5703.scn"
+path="res://.godot/imported/foundation_floor_navmesh.blend-2a4a6e52c1e4202c21a2d22d0dbdcd2e.scn"
 
 [deps]
 
-source_file="res://Models/Building001/Navmeshes/foundation_floor_navmesh.blend"
-dest_files=["res://.godot/imported/foundation_floor_navmesh.blend-1e3da5578c20c28d7edde83a869e5703.scn"]
+source_file="res://models/building001/Navmeshes/foundation_floor_navmesh.blend"
+dest_files=["res://.godot/imported/foundation_floor_navmesh.blend-2a4a6e52c1e4202c21a2d22d0dbdcd2e.scn"]
 
 [params]
 

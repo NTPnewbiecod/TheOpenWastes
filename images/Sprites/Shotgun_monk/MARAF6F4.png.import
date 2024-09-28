@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5hgdipdicims"
-path="res://.godot/imported/MARAF6F4.png-41bb0a747f749cb37b9f86ba556ba1ef.ctex"
+path="res://.godot/imported/MARAF6F4.png-f4261fbad5d8c88459d6bf22b6c09841.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Sprites/Shotgun_monk/MARAF6F4.png"
-dest_files=["res://.godot/imported/MARAF6F4.png-41bb0a747f749cb37b9f86ba556ba1ef.ctex"]
+source_file="res://images/sprites/Shotgun_monk/MARAF6F4.png"
+dest_files=["res://.godot/imported/MARAF6F4.png-f4261fbad5d8c88459d6bf22b6c09841.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bdl2wfibryv4m"
-path="res://.godot/imported/Shotgun_monk_die.wav-5bfc25c95cfdb789e2fc5a504220b142.sample"
+path="res://.godot/imported/Shotgun_monk_die.wav-dc6ae83535efedf05a33bf42f9dfb1ca.sample"
 
 [deps]
 
-source_file="res://Audio/SFX/Shotgun_monk_die.wav"
-dest_files=["res://.godot/imported/Shotgun_monk_die.wav-5bfc25c95cfdb789e2fc5a504220b142.sample"]
+source_file="res://audio/SFX/Shotgun_monk_die.wav"
+dest_files=["res://.godot/imported/Shotgun_monk_die.wav-dc6ae83535efedf05a33bf42f9dfb1ca.sample"]
 
 [params]
 

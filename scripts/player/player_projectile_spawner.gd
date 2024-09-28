@@ -1,8 +1,6 @@
-@icon("res://images/Icons/pistol_icon.png")
-
 extends Node
 
-var projectile = preload("res://Scenes/miscellaneous/projectile_tracer.tscn")
+@export var projectile: PackedScene
 
 var direction: Vector3
 
@@ -37,4 +35,3 @@ func instantiate_projectile() -> void:
 	
 	add_child(projectile_instance)
 	projectile_instance.global_transform.origin = projectile_spawn_point.global_transform.origin
-

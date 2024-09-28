@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://02tp7qnpdxeb"
-path="res://.godot/imported/Shotgun_monk_fire.wav-91bcab7fa942bc23da24ed00bd819bee.sample"
+path="res://.godot/imported/Shotgun_monk_fire.wav-c1a7c6a0f210a2bc098c8f5f7b180dba.sample"
 
 [deps]
 
-source_file="res://Audio/SFX/Shotgun_monk_fire.wav"
-dest_files=["res://.godot/imported/Shotgun_monk_fire.wav-91bcab7fa942bc23da24ed00bd819bee.sample"]
+source_file="res://audio/SFX/Shotgun_monk_fire.wav"
+dest_files=["res://.godot/imported/Shotgun_monk_fire.wav-c1a7c6a0f210a2bc098c8f5f7b180dba.sample"]
 
 [params]
 

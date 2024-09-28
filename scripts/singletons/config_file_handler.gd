@@ -10,6 +10,22 @@ extends Node
 var config = ConfigFile.new()
 const SETTINGS_FILE_PATH = "user://open_wastes_settings.ini"
 
+## key list[br]
+## "mouse_sensitivity"[br]
+## "invert_mouse"[br]
+var mouse_settings: Dictionary
+
+## key list[br]
+## "forward"[br]
+## "backward"[br]
+## "left"[br]
+## "right"[br]
+## "jump"[br]
+## "sprint"[br]
+## "shoot"[br]
+## "change_weapon"[br]
+## "exit"[br]
+var keymapping: Dictionary = {}
 
 func _ready():
 	if not FileAccess.file_exists(SETTINGS_FILE_PATH):
@@ -29,15 +45,16 @@ func _ready():
 		config.save(SETTINGS_FILE_PATH)
 	else:
 		config.load(SETTINGS_FILE_PATH)
+	
+	load_mouse_settings()
+	load_keymapping()
 
 
 func save_mouse_settings(key: String, value) -> void:
 	config.set_value("mouse", key, value)
 	config.save(SETTINGS_FILE_PATH)
 
-
 func load_mouse_settings() -> Dictionary:
-	var mouse_settings: Dictionary = {}
 	for key in config.get_section_keys("mouse"):
 		mouse_settings[key] = config.get_value("mouse", key)
 	return mouse_settings
@@ -56,7 +73,6 @@ func save_keymapping(action: StringName, event) -> void:
 
 
 func load_keymapping() -> Dictionary:
-	var keymapping: Dictionary = {}
 	for key in config.get_section_keys("keymapping"):
 		var input_event
 		var event_str: String = config.get_value("keymapping", key)

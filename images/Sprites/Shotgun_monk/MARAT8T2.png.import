@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcudpcor0ylvx"
-path="res://.godot/imported/MARAT8T2.png-4a6bb41327b417b31cd5b795aa900405.ctex"
+path="res://.godot/imported/MARAT8T2.png-027a67a19910d1b2dfce1878a80e5391.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Sprites/Shotgun_monk/MARAT8T2.png"
-dest_files=["res://.godot/imported/MARAT8T2.png-4a6bb41327b417b31cd5b795aa900405.ctex"]
+source_file="res://images/sprites/Shotgun_monk/MARAT8T2.png"
+dest_files=["res://.godot/imported/MARAT8T2.png-027a67a19910d1b2dfce1878a80e5391.ctex"]
 
 [params]
 
