@@ -16,4 +16,4 @@ air_friction_coeff = 0.7
 air_density = 1.2
 air_walk_mul = 0.1
 air_sprint_mul = 0.1
-air_strafe_speed_soft_limit = 10.0
+air_strafe_speed_soft_limit = 5.0

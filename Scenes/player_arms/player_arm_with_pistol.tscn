@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://b015v86x1q8c6" path="res://models/Player_hands_and_weapons/player_arm_with_pistol.blend" id="3_60m8b"]
 [ext_resource type="Script" path="res://scripts/player/player_projectile_spawner.gd" id="4_hwvs8"]
 [ext_resource type="Script" path="res://scripts/miscellaneous/muzzle_flash.gd" id="5_16l04"]
-[ext_resource type="PackedScene" uid="uid://bxh7wsutsypbi" path="res://scenes/projectile_tracer/projectile_tracer.tscn" id="5_cr6ut"]
+[ext_resource type="PackedScene" uid="uid://bxh7wsutsypbi" path="res://scenes/bullet/bullet.tscn" id="5_cr6ut"]
 [ext_resource type="Texture2D" uid="uid://bceykr2dfcdpl" path="res://images/sprites/muzzle_flash/muzzle_flash_flare01.PNG" id="6_a3ypn"]
 [ext_resource type="Material" path="res://shaders_and_materials/muzzle_flash_flash_material.tres" id="7_x57or"]
 [ext_resource type="Material" uid="uid://bkbw5b0vq4dpn" path="res://shaders_and_materials/muzzle_flash_flare_material.tres" id="8_mq0qd"]

@@ -9,7 +9,7 @@
 [ext_resource type="Script" path="res://scripts/miscellaneous/audio_node.gd" id="6_tgydq"]
 [ext_resource type="Script" path="res://scripts/miscellaneous/muzzle_flash.gd" id="7_mk3ma"]
 [ext_resource type="AudioStream" uid="uid://cgbyuc1i81wq4" path="res://audio/SFX/player_minigun_burst.wav" id="8_ho8h0"]
-[ext_resource type="PackedScene" uid="uid://bxh7wsutsypbi" path="res://scenes/projectile_tracer/projectile_tracer.tscn" id="8_ipvkk"]
+[ext_resource type="PackedScene" uid="uid://bxh7wsutsypbi" path="res://scenes/bullet/bullet.tscn" id="8_ipvkk"]
 [ext_resource type="Material" path="res://shaders_and_materials/muzzle_flash_flash_material.tres" id="8_nosbq"]
 [ext_resource type="Material" uid="uid://bkbw5b0vq4dpn" path="res://shaders_and_materials/muzzle_flash_flare_material.tres" id="9_f7mkg"]
 [ext_resource type="AudioStream" uid="uid://dxiwb5ktjctyf" path="res://audio/SFX/player_minigun_spindown.wav" id="9_q53yw"]
@@ -154,7 +154,7 @@ bones/1/parent = 0
 bones/1/rest = Transform3D(1, 0, -7.15256e-07, 0, 1, 0, 7.15256e-07, 0, 1, 5.32424e-10, 0.324308, -2.96868e-09)
 bones/1/enabled = true
 bones/1/position = Vector3(0.000474975, 0.325475, 0.000474975)
-bones/1/rotation = Quaternion(0.000474975, 0.000474975, -0.000525026, -0.999525)
+bones/1/rotation = Quaternion(0.000474975, 0.000474975, 0.000474975, 1.00048)
 bones/1/scale = Vector3(1, 1, 1)
 
 [node name="MinigunMesh" type="MeshInstance3D" parent="MinigunSkeleton3D"]

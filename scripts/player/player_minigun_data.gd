@@ -1,6 +1,6 @@
 extends Node
 
-## Stores projectile information for the player minigun.
+## Stores Projectile information for the player minigun.
 ## Referred to, among other nodes, by ProjectileSpawner,
 ## so its script can be kept generic and 'weapon agnostic'
 

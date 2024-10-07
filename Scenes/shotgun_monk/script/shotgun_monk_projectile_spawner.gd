@@ -3,7 +3,7 @@
 ## and passes data such as damage and speed to the projectiles.
 extends Node
 
-@export var projectile: PackedScene
+@export var bullet: PackedScene
 
 var direction: Vector3
 var projectile_spread: Vector3
@@ -17,8 +17,8 @@ var projectile_spread: Vector3
 
 func _on_shotgun_monk_fire_spawn_projectiles():
 	normalised_direction_to_target()
-	for projectile_count in shotgun_monk_data.projectiles:
-		calculate_offset_due_to_shotgun_spread()
+	for _i in range(shotgun_monk_data.projectiles):
+		calculate_shotgun_spread()
 		instantiate_projectile()
 
 
@@ -29,7 +29,7 @@ func normalised_direction_to_target() -> void:
 	direction = direction.normalized()
 
 
-func calculate_offset_due_to_shotgun_spread() -> void:
+func calculate_shotgun_spread() -> void:
 		projectile_spread.x = randf_range(-shotgun_monk_data.projectile_spread, shotgun_monk_data.projectile_spread)
 		projectile_spread.y = randf_range(-shotgun_monk_data.projectile_spread, shotgun_monk_data.projectile_spread)
 		projectile_spread.z = randf_range(-shotgun_monk_data.projectile_spread, shotgun_monk_data.projectile_spread)
@@ -37,21 +37,24 @@ func calculate_offset_due_to_shotgun_spread() -> void:
 
 func instantiate_projectile() -> void:
 	var projectile_speed = shotgun_monk_data.projectile_speed
-	direction += projectile_spread
-	direction = direction.normalized()
 	var projectile_life_secs = shotgun_monk_data.projectile_life_secs
 	var projectile_max_damage = shotgun_monk_data.projectile_max_damage
 	
-	var projectile_instance = projectile.instantiate()
+	var projectile_insatance: Projectile = bullet.instantiate()
 	
-	# Pass necessary data to the projectile
-	projectile_instance.set_up_variables(
-		direction,
-		own_collision,
-		projectile_speed,
-		projectile_life_secs,
-		projectile_max_damage
-		)
+	# ! deprecated
+	# Pass necessary data to the bullet
+	# projectile_instance.set_up_variables(
+	# 	direction,
+	# 	own_collision,
+	# 	projectile_speed,
+	# 	projectile_life_secs,
+	# 	projectile_max_damage
+	# 	)
 	
-	add_child(projectile_instance)
-	projectile_instance.global_transform.origin = projectile_spawn_point.global_transform.origin
+	projectile_insatance.muzzle_velocity = projectile_speed
+	projectile_insatance.damage = projectile_max_damage
+	projectile_insatance.life_time = projectile_life_secs
+	projectile_insatance.global_transform = projectile_spawn_point.global_transform
+	projectile_insatance.rotation_degrees += projectile_spread
+	add_child(projectile_insatance)

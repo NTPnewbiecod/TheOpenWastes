@@ -1,4 +1,5 @@
-extends Node
+extends Resource
+
 @export_group("Health")
 @export_range(10.0, 300.0) var health: float = 100.0
 ## How long, as a function of how much damaged received,
@@ -41,7 +42,7 @@ extends Node
 ## Vertical offset of firing target relative to player's local origin
 @export_range(-2.0, 2.0) var target_y_offset_metres: float = 1.0
 ## How much buckshot from shotgun spreads
-@export var projectile_spread: float = 0.1
+@export_range(0.0, 1.0) var projectile_spread: float = 0.1
 ## Speed of each Projectile
 @export_range(10.0, 100.0) var projectile_speed: float = 1.0
 ## Time (secs) until Projectile deletes itself, if not having collided with anything

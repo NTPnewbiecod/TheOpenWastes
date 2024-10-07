@@ -44,11 +44,12 @@ func _physics_process(_delta: float) -> void:
 	gravity_force()
 	force = Vector3.ZERO
 	move_and_slide()
-	print(velocity.length())
 	for i in get_slide_collision_count() -1:
-			var physic_mat: PhysicsMaterial = get_slide_collision(i).get_collider().call("get_physics_material_override")
-			if physic_mat != null:
-				p_move_data.ground_friction_coeff = physic_mat.friction
+			var physic_obj: Object = get_slide_collision(i).get_collider()
+			if physic_obj is StaticBody3D:
+				var physic_mat: PhysicsMaterial = physic_obj.call("get_physics_material_override")
+				if physic_mat != null:
+					p_move_data.ground_friction_coeff = physic_mat.friction
 	return
 
 

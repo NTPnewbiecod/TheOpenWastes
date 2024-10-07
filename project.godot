@@ -105,6 +105,13 @@ free_mouse={
 ]
 }
 
+[layer_names]
+
+3d_physics/layer_1="World"
+3d_physics/layer_2="Player"
+3d_physics/layer_3="Hazard"
+3d_physics/layer_4="NPC"
+
 [rendering]
 
 textures/vram_compression/import_s3tc_bptc=true

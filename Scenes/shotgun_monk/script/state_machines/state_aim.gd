@@ -14,17 +14,16 @@ func enter():
 
 
 func physics_process(delta: float) -> void:
+	
 	var distance_to_player: float = npc.global_position.distance_to(player.global_position)
 	if aiming_time_countdown > 0:
 		aiming_time_countdown -= delta
-		return
 	
 	if distance_to_player > npc_data.firing_range:
 		change_state(pursue_state)
-		return 
 	else:
 		change_state(fire_state)
-		return 
+	return 
 
 
 func exit():

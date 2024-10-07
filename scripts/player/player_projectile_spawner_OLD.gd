@@ -3,7 +3,7 @@
 extends Node
 
 const PROJECTILE_PATH: String = "res://Scenes/miscellaneous/projectile_tracer.tscn"
-var projectile = preload(PROJECTILE_PATH)
+var Projectile = preload(PROJECTILE_PATH)
 
 var direction: Vector3
 
@@ -24,9 +24,9 @@ func normalised_direction() -> void:
 
 
 func instantiate_projectile() -> void:
-	projectile_instance = projectile.instantiate()
+	projectile_instance = Projectile.instantiate()
 	
-	# Pass necessary data to the projectile
+	# Pass necessary data to the Projectile
 	projectile_instance.set_up_variables(
 		direction,
 		player.pistol_projectile_speed,
@@ -41,7 +41,7 @@ func instantiate_projectile() -> void:
 func position_projectile_instance() -> void:
 	var projectile_instance_position: Vector3 = camera.global_transform.origin
 	
-	# Tweak the spawn point of the projectile
+	# Tweak the spawn point of the Projectile
 	var x_rotation_vector = camera.global_transform.basis.x.normalized()
 	var y_rotation_vector = camera.global_transform.basis.y.normalized()
 	projectile_instance_position += player.pistol_projectile_spawn_x_offset * x_rotation_vector

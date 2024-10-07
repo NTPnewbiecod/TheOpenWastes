@@ -1,6 +1,6 @@
 extends Node
 
-## Stores projectile information for the player pistol.
+## Stores Projectile information for the player pistol.
 ## Referred to by ProjectileSpawner,
 ## so its script can be kept generic and 'weapon agnostic'
 

@@ -5,9 +5,7 @@ extends State
 @export var animation: AnimatedSprite3D
 @export var npc: CharacterBody3D
 
-@onready var player: CharacterBody3D = \
-get_tree().get_first_node_in_group("player")
-
+@onready var player: CharacterBody3D = get_tree().get_first_node_in_group("player")
 @onready var gravity: float = ProjectSettings.get("physics/3d/default_gravity")
 
 var character_current_position: Vector3
@@ -25,6 +23,7 @@ func enter() -> void:
 func physics_process(delta: float):
 	
 	if npc.global_position.distance_to(player.global_position) <= npc_data.minimum_idle_range:
+		change_state(pursue_state)
 		return pursue_state
 	
 	if idle_behaviour_time_secs <= 0:
@@ -40,7 +39,7 @@ func physics_process(delta: float):
 func set_idle_target_position() -> void:
 	character_idle_target_position.x = npc.global_position.x + randf_range(-npc_data.idle_movement_distance, npc_data.idle_movement_distance)
 	character_idle_target_position.y = npc.global_position.y
-	character_idle_target_position.z = npc_data.global_position.z + randf_range(-npc_data.idle_movement_distance, npc_data.idle_movement_distance)
+	character_idle_target_position.z = npc.global_position.z + randf_range(-npc_data.idle_movement_distance, npc_data.idle_movement_distance)
 
 
 func move_to_idle_target_position(delta) -> void:
@@ -51,8 +50,8 @@ func move_to_idle_target_position(delta) -> void:
 	
 	direction_to_idle_target.y = 0 - (gravity * delta)
 	
-	npc_data.velocity = direction_to_idle_target * npc_data.move_speed
-	npc_data.move_and_slide()
+	npc.velocity = direction_to_idle_target * npc_data.move_speed
+	npc.move_and_slide()
 
 
 

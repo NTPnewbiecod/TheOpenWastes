@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://bxh7wsutsypbi"]
+
+[ext_resource type="Script" path="res://scenes/bullet/script/bullet.gd" id="1_hucf7"]
+[ext_resource type="Script" path="res://utill_code/hazard/hazard.gd" id="2_ahoft"]
+[ext_resource type="ArrayMesh" uid="uid://bj5m26oqd431s" path="res://scenes/bullet/bullet.tres" id="3_bs82v"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0ltyv"]
+size = Vector3(0.011, 0.011, 2)
+
+[node name="ProjectileTracer" type="Node3D"]
+script = ExtResource("1_hucf7")
+
+[node name="ProjectileTracerMesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.44942)
+cast_shadow = 0
+mesh = ExtResource("3_bs82v")
+skeleton = NodePath("")
+
+[node name="Hazard" type="Area3D" parent="."]
+collision_layer = 0
+collision_mask = 3
+monitorable = false
+script = ExtResource("2_ahoft")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Hazard"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.001, -0.0350148)
+shape = SubResource("BoxShape3D_0ltyv")
+
+[node name="LifeTimeTimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="area_entered" from="Hazard" to="Hazard" method="_on_area_entered"]
+[connection signal="timeout" from="LifeTimeTimer" to="." method="_on_timer_timeout"]

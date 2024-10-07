@@ -1,6 +1,6 @@
 extends Node
 
-@export var projectile: PackedScene
+@export var Projectile: PackedScene
 
 var direction: Vector3
 
@@ -22,9 +22,9 @@ func normalised_direction() -> void:
 
 
 func instantiate_projectile() -> void:
-	projectile_instance = projectile.instantiate()
+	projectile_instance = Projectile.instantiate()
 	
-	# Pass necessary data to the projectile
+	# Pass necessary data to the Projectile
 	projectile_instance.set_up_variables(
 		direction,
 		own_collision_mesh,

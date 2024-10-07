@@ -1,6 +1,6 @@
 extends Node3D
 
-## For generic tracer-style firearm projectile,
+## For generic tracer-style firearm Projectile,
 ## e.g. for use with pistols, shotguns, automatic weapons etc.
 
 var normalised_direction_vector: Vector3
@@ -18,7 +18,7 @@ var shooter_collision: CollisionShape3D
 func _ready() -> void:
 	look_at(global_position + normalised_direction_vector, Vector3.UP)
 
-## Inherits key variables from node with spawned the projectile
+## Inherits key variables from node with spawned the Projectile
 ## and assigns them to local variables
 func set_up_variables(
 		direction,
@@ -51,7 +51,7 @@ func collision_detection() -> void:
 		collision = projectile_tracer_ray_cast_3d.get_collider()
 		damage = damage_as_a_function_of_projectile_lifespan()
 		if collision == shooter_collision:
-			prints("projectile.gd:", shooter_collision, "collided with their own projectile")
+			prints("Projectile.gd:", shooter_collision, "collided with their own Projectile")
 			pass
 		elif collision == player:
 			player.track_health(damage)
